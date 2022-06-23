@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-conteiner{
+    display: grid;
+    grid-template-columns: 3;
+    background-image: url(../img/fondo-de-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(217, 217, 217, 80%) ;
+    padding: 5%;
+    margin: 0%;
+}
+
+li a{
+    display: flex;
+    font-family: 'IM Fell Great Primer', serif;
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.list{
+    list-style: disc;
+    display: block;
+    font-size: x-large;
+    position: relative;
+}
+
+footer div{
+    border-style: solid none none none ;
+    border-radius: 0px;
+    border-width: 1.5px;
+    display: flex;
+    position: relative;
+    bottom: 10px;
+    padding: 15px;
+}
+
+header{
+    background-color: rgba(217, 217, 217, 80%) ;
+    margin: 0%;
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 2;
+    font-family: 'IM Fell Great Primer', serif;
+    background-color: rgba(217, 217, 217, 80%) ;
+    margin: 0%;
+    padding: 0.5%;
+}
+
+.footer{
+    font-family: 'IM Fell Great Primer', serif;
+    background-color: rgba(217, 217, 217, 80%) ;
+    display: grid;
+    justify-content: space-evenly;
+    font-size: smaller;
+}
+
+input{
+    background-color: rgba(17, 16, 16, 30%);
+    border: none;
+}
+
+textarea{
+    background-color: rgba(17, 16, 16, 30%);
+    border: none;
+}
+
+button{
+    background-color: rgba(17, 16, 16, 70%);
+    color: rgba(255, 255, 255, 1);
+    width: 200px;
+    height: 58px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: large;
+}
+
+.boton{
+    background-color: rgba(17, 16, 16, 70%);
+    color: rgba(255, 255, 255, 1);
+    width: 405px;
+    height: 58px;
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: large;
+    position: relative;
+    bottom: 40px;
+}
+
+.header{
+    display: grid;
+    justify-content: space-evenly;
+    border-style: none none solid none ;
+    border-radius: 0px;
+    border-width: 1.5px;
+    padding: 0.5px;
+}
+
+.home{
+    margin: 50px;
+    font-size: large;
+    height: 0.1px;
+    position: relative;
+    top: 15px
+}
+
+.nosotros{
+    margin: 50px;
+    font-size: large;
+    height: 0.1px;
+    position: relative;
+    top: 15px
+}
+
+.tienda{
+    margin: 50px;
+    font-size: large;
+    height: 0.1px;
+    position: relative;
+    top: 15px
+}
+
+.contacto{
+    margin: 50px;
+    font-size: large;
+    height: 0.1px;
+    position: relative;
+    top: 15px
+}
+
+.flexConteiner{
+    display: block;
+    font-size: x-large;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+.image1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 440px;
+    height: 500px;
+    left: 410px;
+    bottom: 250px;
+}
+
+.image2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 440px;
+    height: 500px;
+    left: 910px;
+    bottom: 750px;
+}
+
+.image3{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 310px;
+    left: 850px;
+    height: 400px;
+    width: 450px;
+}
+
+.image4{
+   display: flex;
+   justify-content: flex-start;
+   height: 300px;
+   position: relative;
+   top: 30px;
+   width: 400px;
+   
+
+}
+
+.image5{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    position: relative;
+    left: 495px;
+    bottom: 200px;
+    width: 430px;
+    
+}
+
+.image6{
+    display: flex;
+    justify-content: flex-end;
+    height: 300px;
+    position: relative;
+    left: 990px;
+    width: 400px;
+    bottom: 500px;
+    
+}
+
+.image7{
+    display: flex;
+    justify-content: flex-start;
+    height: 480px;
+    position: relative;
+    top: 50px;
+}
+
+.informacion{
+    display: block;
+    position: relative;
+    left: 900px;
+    bottom: 350px;
+    font-size: x-large;
+}
+
+.presentacion{
+    display: block;
+    font-size: x-large;
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+
+.pedidos{
+    display: block;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    font-size: larger;
+}
+
+.iframe{
+    display: block;
+    font-size: larger;
+    position: relative;
+    left: 800px;
+    bottom: 395px;
+}
+
+.compra{
+    display: block;
+    position: relative;
+    top: 70px;
+    font-size: larger;
+    left: 25px;
+}
+
+.carrito{
+    display: block;
+    position: relative;
+    top: 70px;
+    font-size: larger;
+    left: 20px;
+}
+
+button{
+    display: flex;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    font-family: 'IM Fell Great Primer', serif;
+    align-items: center;
+    width: 400px;
+}
+
+form{
+    display: block;
+    justify-content: flex-start;
+    font-size: large;
+    position: relative;
+    top: 40px;
+}
+
+iframe{
+    display: flex;
+    position: relative;
+    top: 50px;
+    width: 500px;
+    height: 390px;
+}
+
+label{
+    display: flex;
+}
+
+input{
+    display: block;
+    width: 200px;
+    height: 20px;
+}
+
+.apellido{
+    display: flex;
+    position: relative;
+    left: 205px;
+    bottom: 42px;
+}
+
+.e-mail{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    width: 405px;
+}
+
+.textArea{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    width: 405px;
+}
+
+.titulo{
+    display: flex;
+    font-size: x-large;
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        grid-template-columns: max-content;
+        width: 540px;
+    }
+
+    li a{
+        font-size: large;
+    }
+
+    .home{
+        position: relative;
+        left: 130px;
+    }
+
+    .nosotros{
+        position: relative;
+        left: 50px;
+    }
+
+    .tienda{
+        position: relative;
+        right: 30px;
+    }
+
+    .contacto{
+        position: relative;
+        right: 110px;
+    }
+
+    .footer{
+        font-size: x-small;
+    }
+
+    .titulo{
+        font-size: large;
+        left: 50px;
+    }
+
+    .list{
+        font-size: medium;
+        position: relative;
+    }
+
+    .image1{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        bottom: 140px;
+        left: 260px;
+    }
+
+    .image2{
+        display: none;
+    }
+
+    .flexConteiner{
+        font-size: small;
+        left: 10px;
+    }
+
+    .image3{
+        position: relative;
+        left: 330px;
+        width: 200px;
+        height: 200px;
+        bottom: 120px;
+
+    }
+
+    .image4{
+        position: relative;
+        height: 170px;
+        width: 170px;
+    }
+
+    .image5{
+        position: relative;
+        bottom: 70px;
+        left: 210px;
+        width: 150px;
+        height: 170px;
+    }
+
+    .image6{
+        position: relative;
+        bottom: 240px;
+        left: 370px;
+        height: 170px;
+        width: 150px;
+    }
+
+    .image7{
+        height: 250px;
+        width: 250px;
+    }
+
+    .informacion{
+        font-size: small;
+        position: relative;
+        bottom: 120px;
+        left: 330px;
+    }
+
+    button{
+        font-size: small;
+        width: 180px;
+    }
+
+    .pedidos{
+        font-size: medium;
+    }
+
+    label{
+        font-size: small;
+    }
+
+    input{
+        width: 110px;
+    }
+
+    .e-mail{
+        width: 230px;
+    }
+
+    .apellido{
+        position: relative;
+        bottom: 36px;
+        left: 120px;
+    }
+
+    .textArea{
+        width: 230px;
+    }
+
+    .boton{
+        width: 230px;
+        font-size: medium;
+    }
+
+    .iframe{
+        font-size: medium;
+        position: relative;
+        bottom: 370px;
+        left: 290px;
+    }
+
+    iframe{
+        width: 200px;
+    }
+
+
+    
+}
+    
+
+
